@@ -270,6 +270,12 @@ void loop() {
           }
           break;
 
+        case midi::Start :
+          {
+            ticks = 0;
+          }
+          break;
+
         default:
           {
             //send stuff
